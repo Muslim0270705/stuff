@@ -6,7 +6,7 @@ import Logo from "../../images/logo.svg";
 import AVATAR from "../../images/avatar.jpg"
 const Header = () => {
     return (
-        <div className={styles.header}>
+        <section className={styles.header} style={{background:"transparent"}}>
             <div className={styles.logo}>
                 <Link to={ROUTES.HOME}>
                     <img src={Logo} alt=""/>
@@ -59,7 +59,7 @@ const Header = () => {
                     </Link>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
