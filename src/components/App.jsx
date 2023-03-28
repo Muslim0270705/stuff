@@ -23,8 +23,8 @@ const App = () => {
                 <Sidebar/>
                 <AppRoutes/>
             </div>
-
             <Footer/>
+
 
 
 

@@ -1,0 +1,12 @@
+.undefined{
+    width: 74.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.undefined__title{
+    font-size: 50px;
+    display: flex;
+    column-gap: 20px;
+
+}
