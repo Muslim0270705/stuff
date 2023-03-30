@@ -9,7 +9,7 @@ import {filterByPrice} from "../../features/Products/ProductSlice";
 const Home = () => {
     const dispatch = useDispatch()
     const {products : {list,filtered},categories} = useSelector((state) => state)
-    console.log(list)
+
     useEffect(() => {
         if(!list.length) return ;
         dispatch(filterByPrice(100))
