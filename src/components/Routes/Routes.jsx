@@ -10,6 +10,7 @@ import Undefined from "../Undefined/Undefined";
 import Profile from "../Profile/Profile";
 
 import SingleCategory from "../Categories/SingleCategory";
+import Cart from "../Cart/Cart";
 
 const AppRoutes = () => (
     <Routes>
@@ -17,6 +18,7 @@ const AppRoutes = () => (
         <Route path={ROUTES.PRODUCT} element={<SingleProduct />}/>
         <Route path={ROUTES.UNDEFINED} element={<Undefined/>}/>
         <Route path={ROUTES.PROFILE} element={<Profile/>}/>
+        <Route path={ROUTES.CART} element={<Cart/>}/>
         <Route path={ROUTES.CATEGORY} element={<SingleCategory/>}/>
     </Routes>
 )

@@ -16,7 +16,7 @@ const Header = () => {
         name: "Guest", avatar: AVATAR
     })
 
-    const {currentUser} = useSelector(({user}) => user)
+    const {currentUser,cart} = useSelector(({user}) => user)
 
     const handleClick = () => {
         if(!currentUser) dispatch(toggleForm(true))
@@ -34,7 +34,6 @@ const Header = () => {
         setValues(currentUser);
     },[currentUser])
 
-    console.log(data)
 
     return (
         <section className={styles.header} style={{background:"transparent"}}>
@@ -99,13 +98,11 @@ const Header = () => {
                             <use xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#heart`} />
                         </svg>
                     </Link>
-                    <Link to={ROUTES.HOME} className={styles.cart}>
+                    <Link to={ROUTES.CART} className={styles.cart}>
                         <svg className='icon-cart'>
                             <use xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#bag`} />
                         </svg>
-                        <span className={styles.count}>
-                            2
-                        </span>
+                        {!!cart.length && <span className={styles.count}>{cart.length}</span> }
                     </Link>
                 </div>
             </div>
