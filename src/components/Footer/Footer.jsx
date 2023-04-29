@@ -14,11 +14,11 @@ const Footer = () => {
             <div className={styles.rights}>
                 Developer by
                  <a
-                    href="https://www.youtube.com/watch?v=pwcpXge3dEA&t=7027s"
+                    href="https://github.com/Muslim0270705"
                     target="_blank"
                     rel="noreferrer"
                 >
-                    _Tomkovich
+                    _Muslim
                 </a>
             </div>
             <div className={styles.socials}>

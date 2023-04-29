@@ -7,7 +7,8 @@ import {useDispatch} from "react-redux";
 import {addItemToCart} from "../../features/user/userSlice";
 
 
-const SIZES = [4,4.5,5]
+const SIZES = ["Red","Green","Dark"]
+const Gb = [128,256,512]
 
 const Product = (item) => {
     const {images,title,price,description} = item
@@ -30,7 +31,7 @@ const Product = (item) => {
             <div className={styles.images}>
                 <div
                     className={styles.current}
-                    style={{background: `url(${currentImage})`}}
+                    style={{background: `url(${currentImage}) center/cover`}}
                 />
                 <div className={styles["images-list"]}>
                     {images.map((image,i) => (
@@ -47,24 +48,42 @@ const Product = (item) => {
                 <div className={styles.info}>
                     <h1 className={styles.title}>{title}</h1>
                     <div className={styles.price}>{price}$</div>
-                    <div className={styles.color}><span>Color:</span> Green</div>
-                    <div className={styles.sizes}>
-                        <span>Sizes:</span>
-                        <div className={styles.list}>
-                            {SIZES.map((size,i) => (
-                                <div
-                                    onClick={() => setCurrentSize(size)}
-                                    className={`${styles.size} ${currentSize === size ? styles.active : ''}`}
-                                    key={i}
-                                >
-                                    {size}
-                                </div>
+                    {item.category.name  === "Phone" || item.title === "AirPods Max" || item.title === "JBL T710" || item.title  === "Sony WH-1000XM5" ?<>
+
+                        <div className={styles.sizes}>
+                            <span>Color:</span>
+                            <div className={styles.list}>
+                                {SIZES.map((size,i) => (
+                                    <div
+                                        onClick={() => setCurrentSize(size)}
+                                        className={`${styles.size} ${currentSize === size ? styles.active : ''}`}
+                                        key={i}
+                                    >
+                                        {size}
+                                    </div>
                                 ))}
+                            </div>
                         </div>
-                    </div>
+                        {item.category.name  === "Phone" ? <div className={styles.sizes}>
+                            <span>Gb:</span>
+                            <div className={styles.list}>
+                                {Gb.map((size,i) => (
+                                    <div
+                                        onClick={() => setCurrentSize(size)}
+                                        className={`${styles.size} ${currentSize === size ? styles.active : ''}`}
+                                        key={i}
+                                    >
+                                        {size}
+                                    </div>
+                                ))}
+                            </div>
+                        </div> : ""}
+
+                    </>: ""}
+
                     <p className={styles.description}>{description}</p>
                     <div className={styles.actions}>
-                        <button onClick={addToCart} disabled={!currentSize} className={styles.add}>
+                        <button onClick={addToCart} disabled={!currentSize } className={styles.add}>
                             Add to cart
                         </button>
                         <button color={styles.favourite}>

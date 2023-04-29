@@ -13,16 +13,18 @@ const Category = () => {
     const { list } = useSelector(({ categories }) => categories);
 
     const defaultValues = {
-        title: "",
-        price_min: 0,
-        price_max: 0,
+
+        price_gte: 0,
+        price_lte: 2000,
+        "?title": "",
     };
 
     const defaultParams = {
-        categoryId: id,
-        limit: 5,
-        offset: 0,
         ...defaultValues,
+        "category.id" : id,
+        _limit: 5,
+        _start: 0
+
     };
 
     const [isEnd, setEnd] = useState(false);
@@ -39,7 +41,7 @@ const Category = () => {
         setValues(defaultValues);
         setItems([]);
         setEnd(false);
-        setParams({ ...defaultParams, categoryId: id });
+        setParams({ ...defaultParams});
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [id]);
 
@@ -58,7 +60,7 @@ const Category = () => {
 
         setCat(category);
     }, [list, id]);
-
+    console.log()
     const handleChange = ({ target: { value, name } }) => {
         setValues({ ...values, [name]: value });
     };
@@ -94,20 +96,20 @@ const Category = () => {
                 <div className={styles.filter}>
                     <input
                         type="number"
-                        name="price_min"
+                        name="price_gte"
                         onChange={handleChange}
                         placeholder="0"
-                        value={values.price_min}
+                        value={values.price_gte}
                     />
                     <span>Price from</span>
                 </div>
                 <div className={styles.filter}>
                     <input
                         type="number"
-                        name="price_max"
+                        name="price_lte"
                         onChange={handleChange}
                         placeholder="0"
-                        value={values.price_max}
+                        value={values.price_lte}
                     />
                     <span>Price to</span>
                 </div>
@@ -131,11 +133,11 @@ const Category = () => {
                 />
             )}
 
-            {!isEnd && (
+            {!isEnd  && (
                 <div className={styles.more}>
                     <button
                         onClick={() =>
-                            setParams({ ...params, offset: params.offset + params.limit })
+                            setParams({ ...params, _start: params._start + params._limit })
                         }
                     >
                         See more

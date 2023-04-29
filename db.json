@@ -1,0 +1,321 @@
+{
+  "products":
+  [
+    {
+      "id": 1,
+      "title": "Iphone 14pro",
+      "price": 1150,
+      "description": "",
+      "category": {
+        "id": 1,
+        "name": "Phone",
+        "image": "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14pro/deeppurple/wwen_iphone14pro_q422_deep-purple_pdp-images_position-1a-670x540.webp"
+      },
+      "images": [
+        "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14pro/deeppurple/wwen_iphone14pro_q422_deep-purple_pdp-images_position-2-670x540.webp",
+        "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14pro/deeppurple/wwen_iphone14pro_q422_deep-purple_pdp-images_position-1b-670x540.webp",
+        "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14pro/deeppurple/wwen_iphone14pro_q422_deep-purple_pdp-images_position-4-670x540.webp"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Iphone 14pro max",
+      "price": 1200,
+      "description": "",
+      "category": {
+        "id": 1,
+        "name": "Phone",
+        "image": "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14promax/deeppurple/wwen_iphone14promax_q422_deep-purple_pdp-images_position-1a-670x540.webp"
+      },
+      "images": [
+        "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14promax/gold/wwen_iphone14promax_q422_gold_pdp-images_position-2-670x540.webp",
+        "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14promax/deeppurple/wwen_iphone14promax_q422_deep-purple_pdp-images_position-1b-670x540.webp",
+        "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14pro/deeppurple/wwen_iphone14pro_q422_deep-purple_pdp-images_position-4-670x540.webp"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Iphone 14",
+      "price": 1000,
+      "description": "",
+      "category": {
+        "id": 1,
+        "name": "Phone",
+        "image": "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14/blue/wwen_iphone14_q422_blue_pdp_image_position-1a-670x540.webp"
+
+
+      },
+      "images": [
+        "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14/blue/wwen_iphone14_q422_blue_pdp_image_position-2-670x540.webp",
+        "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14/blue/wwen_iphone14_q422_blue_pdp_image_position-1b-670x540.webp",
+        "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14/blue/wwen_iphone14_q422_blue_pdp_image_position-1b-670x540.webp"
+      ]
+    }, {
+    "id": 4,
+    "title": "Iphone 14 plus",
+    "price": 1100,
+    "description": "",
+    "category": {
+      "id": 1,
+      "name": "Phone",
+      "image": "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14promax/deeppurple/wwen_iphone14promax_q422_deep-purple_pdp-images_position-1a-670x540.webp"
+    },
+    "images": [
+      "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14plus/productred/wwen_iphone14plus_q422_productred_pdp_image_position-2-670x540.webp",
+      "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14plus/productred/wwen_iphone14plus_q422_productred_pdp_image_position-1a-670x540.webp",
+      "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14plus/productred/wwen_iphone14plus_q422_productred_pdp_image_position-1b-670x540.webp"
+    ]
+  }, {
+    "id": 5,
+    "title": "Iphone 13pro",
+    "price": 950,
+    "description": "",
+    "category": {
+      "id": 1,
+      "name": "Phone",
+      "image": "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14promax/deeppurple/wwen_iphone14promax_q422_deep-purple_pdp-images_position-1a-670x540.webp"
+    },
+    "images": [
+      "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14pro/silver/wwen_iphone14pro_q422_silver_pdp-images_position-2-670x540.webp",
+      "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14promax/deeppurple/wwen_iphone14promax_q422_deep-purple_pdp-images_position-1b-670x540.webp",
+      "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14pro/deeppurple/wwen_iphone14pro_q422_deep-purple_pdp-images_position-4-670x540.webp"
+    ]
+  }, {
+    "id": 6,
+    "title": "AirPods Pro 2",
+    "price": 150,
+    "description": "",
+    "category": {
+      "id": 2,
+      "name": "Accessories",
+      "image": "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14promax/deeppurple/wwen_iphone14promax_q422_deep-purple_pdp-images_position-1a-670x540.webp"
+    },
+    "images": [
+      "https://asiastore.kg/image/cachewebp/catalog/airpods/airpodspro2gn/mqd83_av1-670x540.webp",
+      "https://asiastore.kg/image/cachewebp/catalog/airpods/airpodspro2gn/mqd83_av2-670x540.webp",
+      "https://asiastore.kg/image/cachewebp/catalog/airpods/airpodspro2gn/mqd83-670x540.webp"
+    ]
+  }, {
+    "id": 7,
+    "title": "AirPods Pro 3",
+    "price": 200,
+    "description": "",
+    "category": {
+      "id": 2,
+      "name": "Accessories",
+      "image": "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14promax/deeppurple/wwen_iphone14promax_q422_deep-purple_pdp-images_position-1a-670x540.webp"
+    },
+    "images": [
+      "https://asiastore.kg/image/cachewebp/catalog/airpods/airpods3/dc5e2262-a7d2-49b7-9de7-61b905767993-670x540.webp",
+      "https://asiastore.kg/image/cachewebp/catalog/airpods/airpods3/416b149a-86b5-463f-9f68-1f9394a9d88f-670x540.webp",
+      "https://asiastore.kg/image/cachewebp/catalog/airpods/airpods3/116e3a5a-62db-41ed-bd46-0b687eb81d8f-670x540.webp"
+    ]
+  }, {
+    "id": 8,
+    "title": "AirPods 2",
+    "price": 200,
+    "description": "",
+    "category": {
+      "id": 2,
+      "name": "Accessories",
+      "image": "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14promax/deeppurple/wwen_iphone14promax_q422_deep-purple_pdp-images_position-1a-670x540.webp"
+    },
+    "images": [
+      "https://login.kg/image/catalog/new/Aksessuary/Apple/Naushniki/AirPods%202%20with%20Charging%20Case/1.jpg",
+      "https://asiastore.kg/image/cachewebp/catalog/airpods/190326150012960922-670x540.webp",
+      "https://asiastore.kg/image/cachewebp/catalog/airpods/190326150012817137-670x540.webp"
+    ]
+  }, {
+    "id": 9,
+    "title": "Xiaomi Walkie Talkie Lite",
+    "price": 59,
+    "description": "",
+    "category": {
+      "id": 3,
+      "name": "walkie-talkie",
+      "image": "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14promax/deeppurple/wwen_iphone14promax_q422_deep-purple_pdp-images_position-1a-670x540.webp"
+    },
+    "images": [
+      "https://sobachka.kg/wp-content/uploads/2022/07/39e06af4_edaf_11ea_8115_2cfda1e1.jpg",
+      "https://sobachka.kg/wp-content/uploads/2022/07/39e06af4_edaf_11ea_8115_2cfda1e21.jpg",
+      "https://sobachka.kg/wp-content/uploads/2022/07/39e06af4_edaf_11ea_8115_2cfda5e1.jpg"
+    ]
+  }, {
+    "id": 10,
+    "title": "Xiaomi Walkie Talkie 1S",
+    "price": 69,
+    "description": "",
+    "category": {
+      "id": 3,
+      "name": "walkie-talkie",
+      "image": "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14promax/deeppurple/wwen_iphone14promax_q422_deep-purple_pdp-images_position-1a-670x540.webp"
+    },
+    "images": [
+      "https://sobachka.kg/wp-content/uploads/2022/07/walkie-talkie-1s-blue-1.jpg",
+      "https://sobachka.kg/wp-content/uploads/2022/07/walkie-talkie-1s-blue-2.jpg",
+      "https://sobachka.kg/wp-content/uploads/2022/07/walkie-talkie-1s-blue-3.jpg"
+    ]
+  },
+    {
+    "id": 11,
+    "title": "Baofeng UV-9R Plus",
+    "price": 49,
+    "description": "",
+    "category": {
+      "id": 3,
+      "name": "walkie-talkie",
+      "image": "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14promax/deeppurple/wwen_iphone14promax_q422_deep-purple_pdp-images_position-1a-670x540.webp"
+    },
+    "images": [
+      "https://radio77.ru/wa-data/public/shop/products/67/12/1267/images/1809/1809.375@2x.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEgTUzZqdGHnd_7mtV-v8DlA5pJjU3YILkiA&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlnN-PXY1osYGm0JvXcCFrH5G66oBltP3Atw&usqp=CAU"
+    ]
+  },{
+    "id": 12,
+    "title": "TYT MD-UV390 DMR",
+    "price":109,
+    "description": "",
+    "category": {
+      "id": 3,
+      "name": "walkie-talkie",
+      "image": "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14promax/deeppurple/wwen_iphone14promax_q422_deep-purple_pdp-images_position-1a-670x540.webp"
+    },
+    "images": [
+      "https://radio77.ru/wa-data/public/shop/products/97/15/1597/images/3462/3462.375@2x.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvMfwcLeu-W5ToQOqOhCBbnBnDCPNMv7RALw&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlnN-PXY1osYGm0JvXcCFrH5G66oBltP3Atw&usqp=CAU"
+    ]
+  },{
+    "id": 13,
+    "title": "Racio R350",
+    "price": 145,
+    "description": "",
+    "category": {
+      "id": 3,
+      "name": "walkie-talkie",
+      "image": "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14promax/deeppurple/wwen_iphone14promax_q422_deep-purple_pdp-images_position-1a-670x540.webp"
+    },
+    "images": [
+      "https://radio77.ru/wa-data/public/shop/products/67/12/1267/images/1809/1809.375@2x.jpg",
+      "data:image/jpeg;base64,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",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEgTUzZqdGHnd_7mtV-v8DlA5pJjU3YILkiA&usqp=CAU"
+    ]
+  },
+    {
+      "id": 14,
+      "title": "Racio R350",
+      "price": 99,
+      "description": "",
+      "category": {
+        "id": 3,
+        "name": "walkie-talkie",
+        "image": "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14promax/deeppurple/wwen_iphone14promax_q422_deep-purple_pdp-images_position-1a-670x540.webp"
+      },
+      "images": [
+        "https://radio77.ru/wa-data/public/shop/products/94/15/1594/images/3445/3445.375@2x.png",
+        "https://radio77.ru/wa-data/public/shop/products/94/15/1594/images/3442/3442.375@2x.png",
+        "https://radio77.ru/wa-data/public/shop/products/94/15/1594/images/3443/3443.375@2x.png"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Iphone 13",
+      "price": 850,
+      "description": "",
+      "category": {
+        "id": 1,
+        "name": "Phone",
+        "image": "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14pro/deeppurple/wwen_iphone14pro_q422_deep-purple_pdp-images_position-1a-670x540.webp"
+      },
+      "images": [
+        "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14/blue/wwen_iphone14_q422_blue_pdp_image_position-2-670x540.webp",
+        "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14/blue/wwen_iphone14_q422_blue_pdp_image_position-1b-670x540.webp",
+        "https://folga.com.ua/graphics/articles/65_image-3-5.jpg"
+      ]
+    }, {
+    "id": 16,
+    "title": "AirPods Max",
+    "price": 150,
+    "description": "",
+    "category": {
+      "id": 2,
+      "name": "Accessories",
+      "image": "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14promax/deeppurple/wwen_iphone14promax_q422_deep-purple_pdp-images_position-1a-670x540.webp"
+    },
+    "images": [
+      "https://asiastore.kg/image/cachewebp/catalog/airpods/airpodsmax/81s533rgkwl._ac_sl1500_-670x540.webp",
+      "https://asiastore.kg/image/cachewebp/catalog/airpods/airpodsmax/71aav-vhg8l._ac_sl1500_-670x540.webp",
+      "https://asiastore.kg/image/cachewebp/catalog/airpods/airpodsmax/81jqupkivrl._ac_sl1500_-670x540.webp"
+    ]
+  }, {
+    "id": 17,
+    "title": "Sony WH-1000XM5",
+    "price": 150,
+    "description": "",
+    "category": {
+      "id": 2,
+      "name": "Accessories",
+      "image": "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14promax/deeppurple/wwen_iphone14promax_q422_deep-purple_pdp-images_position-1a-670x540.webp"
+    },
+    "images": [
+      "https://asiastore.kg/image/cachewebp/catalog/sony/wh-1000xm5/wh-1000xm5-silver-670x540.webp",
+      "https://asiastore.kg/image/cachewebp/catalog/sony/wh-1000xm5/wh-1000xm5-silvery-670x540.webp",
+      "https://asiastore.kg/image/cachewebp/catalog/sony/wh-1000xm5/wh-1000xm5-silvere-670x540.webp"
+    ]
+  }, {
+    "id": 18,
+    "title": "JBL T710",
+    "price": 150,
+    "description": "",
+    "category": {
+      "id": 2,
+      "name": "Accessories",
+      "image": "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14promax/deeppurple/wwen_iphone14promax_q422_deep-purple_pdp-images_position-1a-670x540.webp"
+    },
+    "images": [
+      "https://asiastore.kg/image/cachewebp/catalog/jbl/naushniki/t710/white/0155259_jbl-tune-t710-bt-wireless-on-ear-headphones-white_550-670x540.webp",
+      "https://asiastore.kg/image/cachewebp/catalog/jbl/naushniki/t710/white/0155260_jbl-tune-t710-bt-wireless-on-ear-headphones-white_550-670x540.webp",
+      "https://asiastore.kg/image/cachewebp/catalog/jbl/naushniki/t710/white/0155262_jbl-tune-t710-bt-wireless-on-ear-headphones-white_550-670x540.webp",
+      "https://asiastore.kg/image/cachewebp/catalog/jbl/naushniki/t710/white/0155261_jbl-tune-t710-bt-wireless-on-ear-headphones-white_550-670x540.webp"
+    ]
+  }, {
+    "id": 19,
+    "title": "microphone S10",
+    "price": 100,
+    "description": "",
+    "category": {
+      "id": 2,
+      "name": "microphone",
+      "image": "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14promax/deeppurple/wwen_iphone14promax_q422_deep-purple_pdp-images_position-1a-670x540.webp"
+    },
+    "images": [
+      "https://bobbystore.kg/wa-data/public/shop/products/95/02/80295/images/81249/81249.0x460.png",
+      "https://bobbystore.kg/wa-data/public/shop/products/95/02/80295/images/81250/81250.0x460.png"
+    ]
+  }
+  ],
+  "categories" : [
+    {
+    "id": 1,
+    "name": "Phone",
+    "image": "https://asiastore.kg/image/cache/catalog/iphone/iphone14/iphone14promax/deeppurple/wwen_iphone14promax_q422_deep-purple_pdp-images_position-5-670x540.jpg"
+
+    },
+    {
+      "id": 2,
+      "name": "Accessories",
+      "image": "https://img5.lalafo.com/i/posters/original/f3/a6/bb/cb8ae63336713280a1277dc639.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "walkie-talkie",
+      "image": "https://pro-spec.ru/components/com_jshopping/files/img_products/0007643.webp"
+    },
+    {
+      "id": 4,
+      "name": "microphone",
+      "image": "https://bobbystore.kg/wa-data/public/shop/products/95/02/80295/images/81249/81249.0x460.png"
+    }
+  ]
+}
