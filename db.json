@@ -167,7 +167,7 @@
       "image": "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14promax/deeppurple/wwen_iphone14promax_q422_deep-purple_pdp-images_position-1a-670x540.webp"
     },
     "images": [
-      "https://radio77.ru/wa-data/public/shop/products/67/12/1267/images/1809/1809.375@2x.jpg",
+      "https://sturm.com.ua/image/cache/catalog/racii/B0838-1-300x350.jpg",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEgTUzZqdGHnd_7mtV-v8DlA5pJjU3YILkiA&usqp=CAU",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlnN-PXY1osYGm0JvXcCFrH5G66oBltP3Atw&usqp=CAU"
     ]
@@ -204,7 +204,7 @@
   },
     {
       "id": 14,
-      "title": "Racio R350",
+      "title": "Racio R2350",
       "price": 99,
       "description": "",
       "category": {
@@ -285,12 +285,54 @@
     "price": 100,
     "description": "",
     "category": {
-      "id": 2,
+      "id": 4,
       "name": "microphone",
       "image": "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14promax/deeppurple/wwen_iphone14promax_q422_deep-purple_pdp-images_position-1a-670x540.webp"
     },
     "images": [
       "https://bobbystore.kg/wa-data/public/shop/products/95/02/80295/images/81249/81249.0x460.png",
+      "https://bobbystore.kg/wa-data/public/shop/products/95/02/80295/images/81250/81250.0x460.png"
+    ]
+  }, {
+    "id": 20,
+    "title": "MyDigital K9",
+    "price": 100,
+    "description": "",
+    "category": {
+      "id": 4,
+      "name": "microphone",
+      "image": "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14promax/deeppurple/wwen_iphone14promax_q422_deep-purple_pdp-images_position-1a-670x540.webp"
+    },
+    "images": [
+      "https://bobbystore.kg/wa-data/public/shop/products/48/74/67448/images/20915/20915.0x460.jpg",
+      "https://bobbystore.kg/wa-data/public/shop/products/95/02/80295/images/81250/81250.0x460.png"
+    ]
+  }, {
+    "id": 21,
+    "title": "microphone S12",
+    "price": 100,
+    "description": "",
+    "category": {
+      "id": 4,
+      "name": "microphone",
+      "image": "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14promax/deeppurple/wwen_iphone14promax_q422_deep-purple_pdp-images_position-1a-670x540.webp"
+    },
+    "images": [
+      "https://bobbystore.kg/wa-data/public/shop/products/72/04/80472/images/81243/81243.0x460.jpg",
+      "https://bobbystore.kg/wa-data/public/shop/products/95/02/80295/images/81250/81250.0x460.png"
+    ]
+  }, {
+    "id": 22,
+    "title": "microphone S9+",
+    "price": 100,
+    "description": "",
+    "category": {
+      "id": 4,
+      "name": "microphone",
+      "image": "https://asiastore.kg/image/cachewebp/catalog/iphone/iphone14/iphone14promax/deeppurple/wwen_iphone14promax_q422_deep-purple_pdp-images_position-1a-670x540.webp"
+    },
+    "images": [
+      "https://bobbystore.kg/wa-data/public/shop/products/75/80/68075/images/23216/23216.0x460.png",
       "https://bobbystore.kg/wa-data/public/shop/products/95/02/80295/images/81250/81250.0x460.png"
     ]
   }
