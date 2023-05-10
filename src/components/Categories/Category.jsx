@@ -16,7 +16,7 @@ const Category = () => {
 
         price_gte: 0,
         price_lte: 2000,
-        "?title": "",
+        title_like: "",
     };
 
     const defaultParams = {
@@ -87,10 +87,10 @@ const Category = () => {
                 <div className={styles.filter}>
                     <input
                         type="text"
-                        name="title"
+                        name="title_like"
                         onChange={handleChange}
                         placeholder="Product name"
-                        value={values.title}
+                        value={values.title_like}
                     />
                 </div>
                 <div className={styles.filter}>

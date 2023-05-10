@@ -19,6 +19,7 @@ const UserSignupForm = ({toggleCurrentFormType,closeForm}) => {
     const handleChange = ({target: {value,name}}) => {
         setValues({...values, [name] : value})
     }
+    console.log(values)
 
     const handleSubmit = (e) => {
         e.preventDefault()
@@ -76,8 +77,9 @@ const UserSignupForm = ({toggleCurrentFormType,closeForm}) => {
                     />
                 </div>
                 <div className={styles.group}>
+
                     <input
-                        type="avatar"
+                        type="file"
                         placeholder="Your avatar"
                         name="avatar"
                         value={values.avatar}
