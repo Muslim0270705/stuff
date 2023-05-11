@@ -23,6 +23,8 @@ const Profile = () => {
     useEffect(() => {
         if(!currentUser) return;
         setValues(currentUser);
+
+
     },[currentUser])
     const handleChange = ({target: {value,name}}) => {
         setValues({...values, [name] : value})
@@ -45,7 +47,7 @@ const Profile = () => {
                             type="email"
                             placeholder="Your email"
                             name="email"
-                            value={values.email}
+                            value={values?.user?.email}
                             autoComplete='off'
                             onChange={handleChange}
                             required
@@ -56,7 +58,7 @@ const Profile = () => {
                             type="name"
                             placeholder="Your name"
                             name="name"
-                            value={values.name}
+                            value={values?.user?.name}
                             autoComplete='off'
                             onChange={handleChange}
                             required
@@ -68,7 +70,7 @@ const Profile = () => {
                             type="password"
                             placeholder="Your password"
                             name="password"
-                            value={values.password}
+                            value={values?.user?.password}
                             autoComplete='off'
                             onChange={handleChange}
                             required
@@ -79,7 +81,7 @@ const Profile = () => {
                             type="avatar"
                             placeholder="Your avatar"
                             name="avatar"
-                            value={values.avatar}
+                            value={values?.user?.avatar}
                             autoComplete='off'
                             onChange={handleChange}
                             required

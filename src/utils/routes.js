@@ -4,5 +4,6 @@ export const ROUTES = {
     PROFILE: '/profile',
     PRODUCT: '/products/:id',
     CATEGORY: '/categories/:id',
+    FAVORITES: '/favorites',
     UNDEFINED: '/ERROR404'
 }

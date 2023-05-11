@@ -9,13 +9,14 @@ const Banner = () => (
         <section className={styles.banner}>
             <div className={styles.left}>
                 <p className={styles.content}>
-                    NEW YEAR
+                    НОВЫЙ ГОД
+
                     <span>
-                        SALE
+                        РАСПРОДАЖА
                     </span>
                 </p>
                 <button content={styles.more}>
-                    See more
+                    Узнать больше
                 </button>
             </div>
             <div
@@ -23,7 +24,7 @@ const Banner = () => (
                 style={{backgroundImage : `url(${bannerImg})`}}
             >
                 <p className={styles.discount}>
-                    save up to <span> 50% </span>off
+                    сэкономить до <span> 50% </span>выключенный
                 </p>
             </div>
         </section>

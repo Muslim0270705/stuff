@@ -94,6 +94,7 @@
 .icon-fav {
   stroke: var(--grey);
   fill: none;
+  position: relative;
 }
 
 .icon-cart {

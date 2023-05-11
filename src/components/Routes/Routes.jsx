@@ -11,6 +11,7 @@ import Profile from "../Profile/Profile";
 
 import SingleCategory from "../Categories/SingleCategory";
 import Cart from "../Cart/Cart";
+import Favorites from "../Favorites/Favorites";
 
 const AppRoutes = () => (
     <Routes>
@@ -20,6 +21,7 @@ const AppRoutes = () => (
         <Route path={ROUTES.PROFILE} element={<Profile/>}/>
         <Route path={ROUTES.CART} element={<Cart/>}/>
         <Route path={ROUTES.CATEGORY} element={<SingleCategory/>}/>
+        <Route path={ROUTES.FAVORITES} element={<Favorites/>}/>
     </Routes>
 )
 export default AppRoutes;

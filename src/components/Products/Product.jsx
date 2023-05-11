@@ -4,7 +4,7 @@ import styles from "../../styles/Product.module.css"
 import {Link} from "react-router-dom";
 import {ROUTES} from "../../utils/routes";
 import {useDispatch} from "react-redux";
-import {addItemToCart} from "../../features/user/userSlice";
+import {addItemToCart,addItemToFavorites} from "../../features/user/userSlice";
 
 
 const SIZES = ["Red","Green","Dark"]
@@ -25,7 +25,9 @@ const Product = (item) => {
     const addToCart = () => {
         dispatch(addItemToCart(item))
     }
-
+    const addToFavorites = () => {
+        dispatch(addItemToFavorites(item));
+    };
     return (
         <section className={styles.product}>
             <div className={styles.images}>
@@ -86,7 +88,7 @@ const Product = (item) => {
                         <button onClick={addToCart} disabled={!currentSize } className={styles.add}>
                             Add to cart
                         </button>
-                        <button color={styles.favourite}>
+                        <button color={styles.favourite} onClick={addToFavorites}>
                             Add to favorites
                         </button>
                     </div>

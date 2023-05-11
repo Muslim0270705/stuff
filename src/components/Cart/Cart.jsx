@@ -22,10 +22,10 @@ const Cart = () => {
     return (
         <section className={styles.cart}>
             <h2 className={styles.title}>
-                Your cart
+                Корзина
             </h2>
             {!cart.length ?  (
-                <div className={styles.empty}>Here in empty</div>
+                <div className={styles.empty}>Здесь в пустую</div>
             ) : (
                 <>
 

@@ -12,13 +12,13 @@ const Footer = () => {
                 </Link>
             </div>
             <div className={styles.rights}>
-                Developer by
+
                  <a
                     href="https://github.com/Muslim0270705"
                     target="_blank"
                     rel="noreferrer"
                 >
-                    _Muslim
+
                 </a>
             </div>
             <div className={styles.socials}>
